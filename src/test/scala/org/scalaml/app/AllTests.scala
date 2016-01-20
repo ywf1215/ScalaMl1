@@ -28,6 +28,10 @@ object AllTests extends ScalaMlTest {
 		show("Full test run: may takes several minutes", logger)
 		
 		// Chapter 1
+		evaluate(MinMaxEval)
+		/*evaluate(LogBinRegressionEval)
+		evaluate(LogBinRegressionEval2)
+		evaluate(PlotterEval)*/
 	}
 		
 	def header(args: Array[String]): Unit = {
