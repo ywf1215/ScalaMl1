@@ -31,8 +31,8 @@ object AllTests extends ScalaMlTest {
 		
 		// Chapter 1
 		evaluate(MinMaxEval)
-		/*evaluate(LogBinRegressionEval)
-		evaluate(LogBinRegressionEval2)
+		evaluate(LogBinRegressionEval)
+		/*evaluate(LogBinRegressionEval2)
 		evaluate(PlotterEval)*/
 	}
 		
