@@ -25,9 +25,8 @@ trait ScalaMlTest extends FunSuite with ScalaFutures {
       val ft = Future[Int] { eval.test(args) }
       
       whenReady(ft) { r => assert(r >= 0, "OK") }
-    } else {
-      eval.test(args)
     }
+    else eval.test(args)
   }
 }
 

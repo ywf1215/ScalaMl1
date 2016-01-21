@@ -5,6 +5,8 @@ import org.apache.log4j.Logger
 	// ScalaMl classes
 import org.scalaml.util.DisplayUtils._
 
+import org.scalaml.app.chap1._
+
 object AllTests extends ScalaMlTest {
   import scala.util.Properties
 	import scala.annotation.switch
